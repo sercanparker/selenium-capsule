@@ -1,8 +1,9 @@
 # selenium-capsule
-Encapsulates selenium functionalities from pages or test suites.\
+Encapsulates selenium functionalities from pages or test suites.\ <br/>
 ![Alt text](icon/selenium-capsule.png)
-## :information_desk_person: Installation
+<br/>
+### :information_desk_person: Installation
 
-## :bow: Usage
+### :bow: Usage
  
  
