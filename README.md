@@ -1,7 +1,8 @@
 # selenium-capsule
 Encapsulates selenium functionalities from pages or test suites.
-## Todo: Add how to install
+![Alt text](icon/selenium-capsule.png)
+## :information_desk_person: Installation
 
-## Todo: Add how to use
+## :bow: Usage
  
  
