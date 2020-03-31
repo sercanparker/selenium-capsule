@@ -1,16 +1,18 @@
 package capsule;
 
-import action.ClickAction;
-import action.EnterTextAction;
-import action.GetTextAction;
+import event.ClickEvent;
+import event.EnterTextEvent;
+import event.GetTextEvent;
 
 /**
  * @author sercansensulun on 11.03.2020.
  */
 public interface ISeleniumCapsule {
 
-    ClickAction clickWithXpath(String xpath);
-    EnterTextAction enterTextWithXpath(String text, String xpath);
-    GetTextAction getTextWithXpath(String xpath);
+    ClickEvent clickWithXpath(String xpath);
+    EnterTextEvent enterTextWithXpath(String text, String xpath);
+    GetTextEvent getTextWithXpath(String xpath);
+    void closeBrowser();
+    void sleep(long milliseconds) throws InterruptedException;
 
 }
