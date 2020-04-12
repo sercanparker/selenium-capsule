@@ -19,4 +19,30 @@ driver.manage().window().maximize();
 driver.get("https://www.google.com/");
 seleniumCapsule = new SeleniumCapsule(driver,5);
 ```
+
+```java
+ClickEvent clickEvent = seleniumCapsule.clickWithXpath("(//input[@name=\"btnI\"])[2]");
+Assert.assertTrue(clickEvent.isSuccess());
+//you can log these messages based on operation success.
+//clickEvent.getInformationMessage();
+//clickEvent.getErrorMessage();
+//clickEvent.getInnerExceptionMessage();
+```
+
+```java
+EnterTextEvent enterTextEvent = seleniumCapsule.enterTextWithXpath("selenium", "//input[@type=\"foo\"]");
+Assert.assertTrue(!enterTextEvent.isSuccess());
+Assert.assertNotNull(enterTextEvent.getInnerExceptionMessage());
+Assert.assertTrue(!enterTextEvent.getInnerExceptionMessage().isEmpty());
+Assert.assertNotNull(enterTextEvent.getErrorMessage());
+Assert.assertTrue(!enterTextEvent.getErrorMessage().isEmpty());
+```
+
+```java
+GetTextEvent getTextEvent = seleniumCapsule.getTextWithXpath("//a[text() = \"Gmail\"]");
+Assert.assertTrue(getTextEvent.isSuccess());
+Assert.assertEquals(getTextEvent.getParameter(), "Gmail");
+```
+
+
  
