@@ -3,6 +3,7 @@ Encapsulates selenium functionalities from pages or test suites.\
 ![Alt text](icon/selenium-capsule.png) 
 ## :information_desk_person: Installation
 ### Maven
+check here : https://github.com/sercanparker/selenium-capsule/packages/180938
 ```shell
 <dependency>
   <groupId>com.selenium-capsule</groupId>
