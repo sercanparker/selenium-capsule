@@ -4,7 +4,7 @@ Encapsulates selenium functionalities from pages or test suites.\
 ## :information_desk_person: Installation
 ### Maven
 check here : https://github.com/sercanparker/selenium-capsule/packages/180938
-```shell
+```xml
 <dependency>
   <groupId>com.selenium-capsule</groupId>
   <artifactId>selenium-capsule</artifactId>
