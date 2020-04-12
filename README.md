@@ -12,6 +12,7 @@ check here : https://github.com/sercanparker/selenium-capsule/packages/180938
 </dependency>
 ```
 ## :bow: Usage
+check here : https://github.com/sercanparker/selenium-capsule/blob/master/src/test/java/TestGoogle.java
 ```java
 System.setProperty("webdriver.chrome.driver","PATH_OF_DRIVER");
 WebDriver driver = new ChromeDriver();
